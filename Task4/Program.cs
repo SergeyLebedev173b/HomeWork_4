@@ -1,5 +1,5 @@
 ﻿Console.WriteLine("Введите число: ");
-int n = int.Parse(Console.ReadLine());
+int n = Convert.ToInt32(Console.ReadLine());
     
 for (int i = 1; i <= n; i++)
     if (i % 2 == 0)
